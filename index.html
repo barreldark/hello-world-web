@@ -1,0 +1,36 @@
+<html>
+
+
+<body>
+  <div>학력이 어떻게 되시나요?</div>
+  <select id="1">
+    <option value="고등학교 졸업">고등학교 졸업</option>
+    <option value="대학교 졸업">대학교 졸업</option>
+    <option value="석사">석사</option>
+    <option value="ㅄ">ㅄ</option>
+  </select>
+
+  <div>전공이 어떻게 되시나요?</div>
+  <select id="2">
+    <option value="컴퓨터공학과">컴퓨터공학과</option>
+    <option value="아님">아님</option>
+  </select>
+
+  <div>하루에 디씨인싸이드를 얼마나 이용하시나요?</div>
+  <select id="3">
+    <option value="8시간 이상">8시간 이상</option>
+    <option value="8시간 미만">8시간 미만</option>
+  </select>
+
+  <button onclick="b()">
+  결과보기</button>
+
+  <div id="result" style="display: none;">
+    당신의 추천 초봉은 2400만원 입니다.
+  </div>
+</body>
+</html>
+<script>
+function b(){
+  document.getElementById('result').style.display = 'block';}
+</script>
